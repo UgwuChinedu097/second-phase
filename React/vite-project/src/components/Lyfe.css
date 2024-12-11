@@ -1,0 +1,54 @@
+.Lheader{
+  margin-top: 20px;
+  background-color: lavender;
+  height: 80px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Llogo{
+  /* background-color: blue; */
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-left: 100px;
+  font-size: 30px;
+  color: rgb(138,43,226);
+}
+
+.leftLyfe{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 30%;
+  margin-right: 100px;
+}
+
+.leftLyfe{
+  color: rgb(138,43,226);
+}
+
+.leftLyfe > .btnsu{
+  width: 120px;
+  height: 45px;
+  background-color: rgb(138,43,226);
+  border: 1px solid rgb(138,43,226);
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.leftLyfe > .btnsi{
+  width: 120px;
+  height: 45px;
+  background-color: transparent;
+  border: 1px solid rgb(138,43,226);
+  color: rgb(138,43,226);
+  margin-left: 20px;
+  font-size: 13px;
+  font-weight: bold;
+  outline: none;
+}

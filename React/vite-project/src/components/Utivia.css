@@ -1,0 +1,57 @@
+.Uheader{
+  margin-top: 20px;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(0,2,105);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logocon{
+  /* background-color: green; */
+  margin-left: 50px;
+  font-size: 25px;
+  color: rgb(5,7,148);
+  cursor: pointer;
+}
+
+.nav_u{
+  /* background-color: blue; */
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav_u > nav{
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.u_button{
+  justify-content: space-evenly;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.u_button > button{
+  margin-left: 20px;
+  width: 120px;
+  height: 40px;
+  font-weight: bolder;
+  background-color: rgb(0,3,169);
+  cursor: pointer;
+}
+
+.u_button > .Lbt{
+  border:1px solid rgb(0,3,169);
+  background-color: transparent;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+
