@@ -1,30 +1,27 @@
 import "./Andela.css"
-import { CgProfile } from "react-icons/cg"
-import { IoSearchOutline } from "react-icons/io5";
 import logo from "../assets/andela_logo.svg"
+import { CgProfile, CgSearch } from "react-icons/cg"
 
-const Andela = () => {
-  return(
-    <header className="first">
+const Andela =() => {
+  return (
+    <header>
       <div className="parent">
-      <div className="firstname">
-        <img src={logo}/>
+        <div className="first">
+          <img src={logo}/>
+        </div>
+        <div className="second">
+          <nav>home</nav>
+          <nav>about</nav>
+          <nav>why hire?</nav>
+          <nav>contact</nav>
+          <nav>help</nav>
+          <nav>colllection</nav>
+        </div>
       </div>
-      <div className="secondname">
-        <nav>Why Andela?</nav>
-        <nav>Adaptive Hiring</nav>
-        <nav>Solution</nav>
-        <nav>Platform</nav>
-        <nav>Resources</nav>
-        <nav>Talent</nav>
-        <nav>About</nav>
-      </div>
-      </div>
-
-      <div className="thirdname">
-        <CgProfile className="profile"/>
-        <IoSearchOutline className="search"/>
-        <button>Hire Talent</button>
+      <div className="third">
+        <CgProfile className="pro"/>
+        <CgSearch className="src"/>
+        <button>Hire me</button>
       </div>
     </header>
   )

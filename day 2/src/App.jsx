@@ -1,12 +1,11 @@
-import './App.css'
-import Andela from "./components/Andela"
+import Andela  from "./components/Andela"
 
 
-function App() {
-  return (
+function App () {
+  return(
     <div>
       <Andela/>
-    </div>  
+    </div>
   )
 }
 
