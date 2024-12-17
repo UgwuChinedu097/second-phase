@@ -1,0 +1,23 @@
+
+.p_container {
+  background-color: #333;
+  overflow: auto;
+  display: flex;
+  margin-top: 180px;
+  /* height: 500px; */
+}
+
+
+
+.p_container >img{
+  width: 100rem;
+  height: 30rem;
+}
+
+.p_container:nth-child(2){
+  width: 500rem;
+  height: 25rem;
+}
+
+
+

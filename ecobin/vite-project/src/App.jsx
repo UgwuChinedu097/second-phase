@@ -1,15 +1,9 @@
-import Header from "./components/Header";
-import Hero from "./components/Hero";
 import "./App.css"
+import Layout from "./layout/Layout"
 
 
-const App = () =>{
-  return (
-    <div className="main">
-      <Header/>
-      <Hero/>
-    </div>
-  )
+function App() {
+  return <Layout/>
 }
 
 export default App
