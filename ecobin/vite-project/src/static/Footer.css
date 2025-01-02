@@ -54,6 +54,11 @@
 }
 
 .foot_right > p >.icon:hover{
+  color: rgb(3,185,3);
+}
+
+.foot_right > p:hover{
+  color: rgb(3,185,3);
 }
 
 .copy{
