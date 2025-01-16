@@ -190,7 +190,6 @@ const Compsix = () => {
             <GoArrowRight
               style={{
                 marginLeft: "15px",
-                color: "white",
                 fontSize: "18px",
                 fontWeight: "400",
                 cursor: "pointer",
