@@ -3,8 +3,9 @@ import { css } from "@emotion/react";
 import jumiaLogo from "../assets/jumia.svg";
 import { AiOutlineQuestionCircle } from "react-icons/ai";
 import { IoCartOutline } from "react-icons/io5";
-import { FaAngleDown } from "react-icons/fa";
+import { FaAngleDown, FaSearch } from "react-icons/fa";
 import { MdOutlinePerson } from "react-icons/md";
+import { MdOutlineSearch } from "react-icons/md";
 
 
 const Header = () => {
@@ -38,8 +39,9 @@ const Header = () => {
             <input
               type={"search"}
               css={searchbar}
-              placeholder=" Search product, brand and categories"
+              placeholder="             Search product, brand and categories"
             />
+            <MdOutlineSearch style={{fontSize: "25px", color: "grey", position: "absolute", bottom: "24px", left: "10px"}} />
             <button css={searchBtn}>Search</button>
           </div>
           <div css={navHolder}>
@@ -123,12 +125,12 @@ const searchBtn = css`
 
 const searchHolder = css`
   width: 70%;
-  ${"" /* border: 1px solid blue; */}
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: transparent;
+  position: relative;
 `;
 
 const searchbar = css`
